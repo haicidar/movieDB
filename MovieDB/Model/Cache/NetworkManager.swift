@@ -13,10 +13,10 @@ class NetworkManager {
         static let memoryCacheByteLimit: Int = 4 * 1024 * 1024 // 20 MB
         static let diskCacheByteLimit: Int = 20 * 1024 * 1024          // 4 MB
         static let cacheName: String = "MovieDB.cache"
-        static let apiKey = "8967810624aca673ecb20904b7d8a5fa"
+        static let apiKey = "-" //add yout api key
         static let allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4OTY3ODEwNjI0YWNhNjczZWNiMjA5MDRiN2Q4YTVmYSIsInN1YiI6IjY2MjkyNzQ3YmJlMWRkMDE3ZWE5YmEwYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8s_7oUijq1QDY48jNrNcoEUIHPQumkznlUlnmMMYBlo"
+            "Authorization": "Bearer -" //add your token
           ]
     }
     
